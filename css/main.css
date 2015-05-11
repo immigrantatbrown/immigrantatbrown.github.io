@@ -1,0 +1,121 @@
+.chart {
+    height: 550px;
+}
+
+.spacer {
+    height: 70px;
+}
+
+#map {
+	height: 500px; 
+	width: 800px; 
+	margin: 0 auto; 
+}
+
+.highcharts-tooltip>span {
+	padding: 10px;
+	white-space: normal !important;
+	width: 200px;
+}
+
+.loading {
+	margin-top: 10em;
+	text-align: center;
+	color: gray;
+}
+
+.f32 .flag {
+	vertical-align: middle !important;
+}
+
+#results a {
+	color:#39454b;
+}
+#genderChart {
+	display: inline-block;
+	width:300px;
+	margin-right: 100px;
+}
+#ageChart{
+	display:inline-block;
+	width:300px;
+}
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+	#baded {
+		background: url('images/overlay.png'), url('../images/10.png');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+		#ppush {
+		background: url('images/overlay.png'), url('../images/2.png');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+		#lowincome {
+		background: url('images/overlay.png'), url('../images/8.png');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+		#lowconf {
+		background: url('images/overlay.png'), url('../images/5.png');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+		#badadmin {
+		background: url('images/overlay.png'), url('../images/6.png');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+		#nobelong {
+		background: url('images/overlay.png'), url('../images/12.png');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+		#community {
+		background: url('images/overlay.png'), url('../images/9.png');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+			#brownlove {
+		background: url('images/overlay.png'), url('../images/17.png');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+	td {
+		padding:20px;
+	}
